@@ -1,0 +1,45 @@
+body{
+    background-color: #990000;
+}
+#playlistContainer{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#playlistGrid{
+    
+}
+
+.jumbotron{
+color: white;
+
+height: 600px;
+text-align: center;
+padding: 50px;
+}
+.bigAlStadium{
+position: relative;
+max-height: 300px;
+}
+.trackImage{
+    max-height: 200px;
+}
+.playlistColumn{
+    padding: 10px;
+    color: white;
+    transition: transform .8s;
+    cursor: pointer;
+}
+#playlistGrid{
+    text-align: center;
+}
+.playlistColumn:hover{
+    transform: scale(1.05);
+}
+.row{
+    width: 100%;
+}
+.nav-link{
+    cursor: pointer;
+}
